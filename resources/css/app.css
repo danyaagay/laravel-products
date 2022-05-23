@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+}
+
+.col-1 {
+    display: block;
+}
+
+.col-2 {
+    display: block;
+}

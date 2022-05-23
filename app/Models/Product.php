@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Product extends Model
 {
-    public function scopeAvailable ($query) {
+    public function scopeAvailable($query) {
         return $query->where('status', 'available')->get();
     }
 }

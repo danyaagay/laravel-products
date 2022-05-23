@@ -1,0 +1,102 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.col-1 {
+    display: block;
+    min-width: 230px;
+    max-width: 230px;
+    background-color: #374050;
+}
+
+.col-2 {
+    display: block;
+    width: 88%;
+    background-color: #f2f6fa;
+}
+
+.logo-description {
+    display: block;
+    margin: 6px 15px;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 13px;
+}
+
+.logo-container {
+    display: flex;
+    width: 100%;
+    height: 70px;
+}
+
+.logo {
+    display: block;
+    width: 42%;
+    background-color: #ffffff;
+    border-radius: 0 0 20px 0;
+}
+
+.name-p {
+    display: block;
+    line-height: 40px;
+    padding-left: 45px;
+    color: #c3c5ca;
+    font-size: 15px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: #ffffff;
+    padding: 0 25px;
+}
+
+.title {
+    display: block;
+    color: #ed1c24;
+    line-height: 66px;
+    margin-right: 15px;
+    border-bottom: solid 4px #ed1c24;
+    font-size: 15px;
+}
+
+.user-name {
+    display: block;
+    color: #a6afb8;
+    line-height: 70px;
+    font-size: 15px;
+}
+
+.content {
+    display: flex;
+}
+
+.content-1 {
+    display: block;
+    width: 50%;
+}
+
+.content-2 {
+    display: block;
+    width: 50%;
+    padding: 25px 25px 0 0;
+    text-align: right;
+}
+
+.button-add {
+    width: 160px;
+    line-height: 32px;
+    background-color: #0fc5ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
